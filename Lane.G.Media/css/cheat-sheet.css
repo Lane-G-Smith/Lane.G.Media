@@ -1,0 +1,81 @@
+
+................../* positioning */.............................
+
+...............four display elements, display:block.................
+
+inline -
+
+block - p, div, header, form, ul, li
+takes the entire width of the page
+
+inline-block - will let items stack side by side, images
+
+none -  makes something invisible but keeps its position
+
+
+
+.............four position elements, position:relative.......................
+
+static -  all html elements by default
+
+relative -  relative to where it would have been normally
+
+absolute - relative to its positioned parent, if parent not positioned it defaults to the body
+
+fixed - fixed relative the viewport, will always display on screen
+
+sticky - positioned based on users scroll position, so it alternates between relative and fixed based on how far you scroll
+
+
+
+..............four position value types, top:50px .........................
+
+top
+
+right
+
+left
+
+bottom
+
+
+
+.......................flexbox, display:flex;................................
+
+creates a flex container, and all elements that are direct children, and only direct children become flex elements
+
+flex elements can also be flex containers
+
+flex container properties include
+flex-dirextion
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+
+flex element properties include
+order
+flex-grow
+flex-shrink
+flex-basis
+flex (is shorthand for flex-grow, flex-shrink, flex-basis, flex: 0 0 200px)
+align-self
+
+
+
+........................z index, z-index:1.......................
+
+only works with positioned elements
+everything by default is set to 0
+higher numbers will make something display on top
+
+
+
+.......................mobile first design, media query common breakpoints......................
+
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
