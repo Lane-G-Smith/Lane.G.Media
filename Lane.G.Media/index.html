@@ -1,78 +1,52 @@
 <!-- heading, boilerplate, font link, bootstrrap link, icon link, style sheet link -->
 
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Lane G Media</title>
-  <link rel="stylesheet" href="css\styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;500&family=Inter:wght@100;200;900&family=Ubuntu&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
-
 <body>
+<!-- navbar area  -->
 
-  <!-- navigation bar-->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand">Lane G Photography</a>
+        <button 
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="nav-menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#locations" class="nav-link">Locations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-  <nav class="navbar">
-    <a class="navbarlink" href="Home-Page.html"> Home Page </a>
-    <a class="navbarlink" href="www.photography page link here">Photography</a>
-    <a class="navbarlink" href="www.videography page link here">videography</a>
-    <a class="navbarlink" href="www.website page link here">websites</a>
-    <a class="navbarlink" href="www.website page link here">About Us</a>
-    <a class="navbarlink" href="www.website page link here">Contact</a>
-  </nav>
+<!-- main section -->
+
+<section class="bg-dark text-light p-5 text-center"></section>
 
 
-  <!-- Navigation bar for mobile screens -->
-
-
-<!-- Hero image area -->
-
-<header>
-  <div class="flex-c-one">
-    <h1 class="flex-e-one">DIGITAL MEDIA</h1>
-    <h1 class="flex-e-one">DONE RIGHT</h1>
-  </div>
-</header>
-
-<div class="flex-c-one bg-color-black">
-    <ul class="flex-e-two">
-      <h2>Photography</h2>
-      <li>weddings</li>
-      <li>family</li>
-      <li>adventure</li>
-      <li>Business</li>
-    </ul>
-    <ul class="flex-e-two blue">
-      <h2>Videography</h2>
-      <li>weddings</li>
-      <li>Commercial</li>
-      <li>Documentary</li>
-      <li>Branding</li>
-    </ul>
-    <ul class="flex-e-two">
-      <h2>Web Applications</h2>
-      <li>Websites</li>
-      <li>Phone Applications</li>
-      <li>SEO</li>
-      <li>Branding</li>
-    </ul>
-    <ul class="flex-e-two">
-      <h2>Branding</h2>
-      <li>weddings & love</li>
-      <li>family portraiture</li>
-      <li>adventure sessions</li>
-      <li>products & brands</li>
-    </ul>
-</div>
-
-<div class="flex-c-one">
-  <h1 class="flex-e-one">farts</h1>
-  <h1 class="flex-e-one">you know you like em</h1>
-</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
